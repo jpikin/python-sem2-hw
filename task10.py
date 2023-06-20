@@ -10,4 +10,4 @@ avers_revers = [0,0]
 for i in money:
     if i == 0: avers_revers[0] += 1
     else: avers_revers[-1] += 1
-print(min(avers_revers)) 
+print(f'Минимальное количество монет, которые нужно перевернуть: {min(avers_revers)}') 
