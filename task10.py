@@ -25,5 +25,5 @@ for _ in range(int(input("Введите количество монет "))):
     if x == 0: avers_revers[0] += 1
     else: avers_revers[-1] += 1
     print(x, end=' ')
-print(f': Минимальное количество монет, которые нужно перевернуть: {min(avers_revers)}')     
+print(f'\nМинимальное количество монет, которые нужно перевернуть: {min(avers_revers)}')     
 
